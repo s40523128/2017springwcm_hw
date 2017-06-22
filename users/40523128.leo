@@ -27,12 +27,21 @@
 <v t="amd.20161004083800.5" a="E"><vh>body</vh>
 <v t="amd.20161004083800.6" a="E"><vh>reveal div</vh>
 <v t="amd.20161004083800.7" a="E"><vh>slides div</vh>
-<v t="amd.20161004083800.8"><vh>blog</vh></v>
-<v t="leo.20170622235919.1"><vh>1</vh></v>
-<v t="leo.20170623004855.1"><vh>2</vh></v>
-<v t="leo.20170623010126.1"><vh>3</vh></v>
-<v t="leo.20170623011819.1"><vh>4</vh></v>
-<v t="leo.20170623013928.1"><vh>5</vh></v>
+<v t="leo.20170623022524.1" a="E"><vh>封面投影片</vh>
+<v t="leo.20170623022524.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20170623022639.1" a="E"><vh>封面投影片2</vh>
+<v t="leo.20170623022639.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20170623022747.1" a="E"><vh>封面投影片2</vh>
+<v t="leo.20170623022747.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20170623022829.1" a="E"><vh>封面投影片2</vh>
+<v t="leo.20170623022829.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20170623022859.1" a="E"><vh>封面投影片2</vh>
+<v t="leo.20170623022859.2"><vh>封面投影片內容</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -191,19 +200,6 @@ print("hello")
 @others
 &lt;/div&gt;
 
-</t>
-<t tx="amd.20161004083800.8">&lt;section&gt;
-    &lt;h1&gt;40523128許凱翔的網際內容管理&lt;/h1&gt;
-    &lt;p&gt;
-    &lt;a href="https://github.com/s40523130/2017springwcm_g7"&gt;WCM7&lt;/a&gt;
-    &lt;/p&gt;
-    &lt;p&gt;
-    &lt;a href="blog/index.html"&gt;許凱翔的blog&lt;/a&gt;
-    &lt;/p&gt;
-    &lt;p&gt;
-    &lt;a href="https://vimeo.com/user58667333"&gt;許凱翔的Vimeo&lt;/a&gt;
-    &lt;/p&gt;
-&lt;section&gt;
 </t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
@@ -473,21 +469,79 @@ def domake():
 # 利用執行緒執行 https 伺服器
 make = threading.Thread(target=domake)
 make.start()</t>
-<t tx="leo.20170622235919.1">&lt;section&gt;
+<t tx="leo.20170623022524.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170623022524.2">&lt;section&gt;
+    &lt;h1&gt;40523128許凱翔的網際內容管理&lt;/h1&gt;
+    &lt;p&gt;
+    &lt;a href="https://github.com/s40523130/2017springwcm_g7"&gt;WCM7&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+    &lt;a href="blog/index.html"&gt;許凱翔的blog&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+    &lt;a href="https://vimeo.com/user58667333"&gt;許凱翔的Vimeo&lt;/a&gt;
+    &lt;/p&gt;
+&lt;section&gt;
+</t>
+<t tx="leo.20170623022639.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170623022639.2">&lt;section&gt;
     &lt;h2&gt;在Virtualbox中,以橋接網路卡設定,建立一台 Ubuntu伺服主機&lt;/h2&gt;&lt;br/&gt;
 isudo apt update幫我們把下載的網站資料update到最新,如果不行就用 sudo rm /var/lib/dpkg/lock 把lock刪除掉 , sudo apt install nginx 安裝nginx ,用ifconfig再到外部的瀏覽器打上IP:80就可以看到,如果像要知道檔案在哪裡就 cd /var/www/html , ls -l ,sudo vi index.nginx-debian.html 就可更改&lt;br/&gt;
     &lt;section&gt;</t>
-<t tx="leo.20170623004855.1">&lt;section&gt;
+<t tx="leo.20170623022747.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170623022747.2">&lt;section&gt;
 &lt;h2&gt;自製網路線&lt;h2&gt;&lt;br/&gt;
 先準備好8蕊網路線 RJ-45接頭和剪刀還有壓線鉗&lt;br/&gt;
 用剪刀將網路線外皮剝除,之後將雙絞線進行分類,兩端的網路接頭皆為T568B為一般傳輸用網路線,T568B配線顏色順序為白橙、橙、白綠、藍、白藍、綠、白棕、棕再將前端不整齊的部分修剪整齊套入RJ45接頭用壓線鉗壓僅完成壓線
 跳線:兩台電腦資料對傳用一頭用T568B另一頭用T568A配線,T568A配線順序為白綠、綠、白橙、藍、白藍、橙、白棕、棕&lt;br/&gt;
 &lt;section&gt;</t>
-<t tx="leo.20170623010126.1">&lt;section&gt;
+<t tx="leo.20170623022829.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170623022829.2">&lt;section&gt;
 &lt;h2&gt;開啟CMsimfiy伺服器&lt;h2&gt;&lt;br/&gt;
 先ipconfig找到現在所使用的IP,再找到wsgi.py的檔案將它丟到SciTE編輯裡面的IP改成現在使用的IP,再用python讀wsgi.py如果要關掉就按ctrl+C&lt;br/&gt;
 &lt;section&gt;</t>
-<t tx="leo.20170623011819.1">&lt;section&gt;
+<t tx="leo.20170623022859.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170623022859.2">&lt;section&gt;
 &lt;h2&gt;什麼叫機械設計&lt;h2&gt;&lt;br/&gt;
 設計是一種表達 表達意義在"設"字上&lt;br/&gt;
 1.口語表達 2.文字表達  3. 2D圖像表達  4.  3D圖像表達  5.量化 定性方法  6.實際操作&lt;br/&gt;
@@ -498,6 +552,5 @@ isudo apt update幫我們把下載的網站資料update到最新,如果不行就
 計:經過很多思考討論考量&lt;br/&gt;
 我們要利用虛實整合設計工程師  虛:數位化  實:實作  網際內容管理在虛裡做實的內容&lt;br/&gt;
 &lt;section&gt;</t>
-<t tx="leo.20170623013928.1"></t>
 </tnodes>
 </leo_file>
