@@ -481,13 +481,13 @@ make.start()</t>
 <t tx="leo.20170623022524.2">&lt;section&gt;
     &lt;h1&gt;40523128許凱翔的網際內容管理&lt;/h1&gt;
     &lt;p&gt;
-    &lt;a href="https://github.com/s40523130/2017springwcm_g7"&gt;WCM7&lt;/a&gt;
+    &lt;a href="https://github.com/s40523128/2017springwcm_hw"&gt;WCM7&lt;/a&gt;
     &lt;/p&gt;
     &lt;p&gt;
     &lt;a href="blog/index.html"&gt;許凱翔的blog&lt;/a&gt;
     &lt;/p&gt;
     &lt;p&gt;
-    &lt;a href="https://vimeo.com/user58667333"&gt;許凱翔的Vimeo&lt;/a&gt;
+    &lt;a href="https://vimeo.com/home"&gt;許凱翔的Vimeo&lt;/a&gt;
     &lt;/p&gt;
 &lt;section&gt;
 </t>
